@@ -1,0 +1,30 @@
+@media screen and (max-width: 790px)
+{
+	.lower-bar
+	{
+		display: none;
+	}
+}
+@media screen and (max-width: 700px)
+{
+	.upper-bar
+	{
+		justify-content: center;
+		display: flex;
+	}
+	.upper-bar h2
+	{
+		display: none;
+	}
+}
+@media screen and (max-width: 670px)
+{
+	.dropbar-list
+	{
+		display: none;
+	}
+	.drop-bar i
+	{
+		display: block;
+	}
+}
